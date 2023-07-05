@@ -6,11 +6,8 @@
   box-sizing: border-box;
 }
 
-body {
-  /* font-family: ; */
-}
 .Navbar_div {
-  background-color: blueviolet;
+  background-color: #ee6055;
   height: 80px;
   width: 100%;
 }
@@ -36,7 +33,7 @@ div ul li a {
   padding: 7px 13px;
 }
 a:hover {
-  background-color: brown;
+  background-color: #ba181b;
   border-radius: 7px;
   transition: 0.5s;
 }

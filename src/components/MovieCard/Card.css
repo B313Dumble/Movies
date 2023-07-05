@@ -2,6 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
+}
+.search-bar {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .film-card {
@@ -41,7 +47,7 @@
   padding: 20px;
 }
 
-.film-card h2 {
+.Card-title1 {
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -50,14 +56,14 @@
   margin-bottom: 5px;
 }
 
-.film-card h2 {
+.Card-title1 {
   font-size: 24px;
   margin-bottom: 10px;
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.film-card h2::after {
+.Card-title1::after {
   display: block;
   width: 50%;
   height: 2px;
@@ -65,7 +71,7 @@
   margin: 10px auto;
 }
 
-.film-card h2:hover {
+.Card-title1:hover {
   color: #ff5500;
 }
 

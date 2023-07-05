@@ -119,16 +119,4 @@ export const films = [
     year: 1972,
     image: "images/the-godfather.jpg",
   },
-  {
-    title: "Les haleurs de bateaux",
-    description: "Description of Film ",
-    image: "",
-    year: 1896,
-  },
-  {
-    title: "",
-    description: "Description of Film ",
-    image: "",
-    year: 1896,
-  },
 ];
